@@ -2,65 +2,79 @@ import unicodedata as ud
 import re
 from googletrans import Translator
 import wordninja
+from transliterate import translit
 
-#---------------------------------------------------
-latin_letters= {}
+def title_translator(word):
+    #---------------------------------------------------
+    latin_letters= {}
 
-def is_latin(uchr):
-    try: return latin_letters[uchr]
-    except KeyError:
-         return latin_letters.setdefault(uchr, 'LATIN' in ud.name(uchr))
+    def is_latin(uchr):
+        try: return latin_letters[uchr]
+        except KeyError:
+            return latin_letters.setdefault(uchr, 'LATIN' in ud.name(uchr))
 
-def only_roman_chars(unistr):
-    return all(is_latin(uchr)
-           for uchr in unistr
-           if uchr.isalpha()) # isalpha suggested by John Machin
-#---------------------------------------------------
-def slice_word(word):
-    wm = wordninja.LanguageModel('words.txt.gz')
-    name_list = wm.split(word)
-    print(name_list)
-    return name_list
+    def only_roman_chars(unistr):
+        return all(is_latin(uchr)
+            for uchr in unistr
+            if uchr.isalpha())  
+    #---------------------------------------------------
+    def slice_word(word):
+        wm = wordninja.LanguageModel('words.txt.gz')
+        name_list = wm.split(word)
+        print(name_list)
+        return name_list
 
-def trans_partly(name):
-    # Minecraft laucher
-    trans_name = []
-    wordList = re.sub("[^\w]", " ",  name).split()
-    for word in wordList:
-        name_text = ' '.join(slice_word(word))
-        translator = Translator()
-        trans_word = translator.translate(name_text, dest='bg')
-        trans_name.append(trans_word.text)
-    return ' '.join(trans_name)
+    def contain_latin_stuff(trans_name):
+        is_bad = False
+        wordList = re.sub("[^\w]", " ",  trans_name.text).split()
+        for word in wordList: 
+            try: int(word)
+            except ValueError:
+                if only_roman_chars(word): is_bad = True
         
+        return is_bad
 
-def trans_all(name):
-    translator = Translator() 
-    trans_name = translator.translate(name, dest='bg') 
-    print(trans_name)
-    
-    is_bad = False
-    wordList = re.sub("[^\w]", " ",  trans_name.text).split()
-    for word in wordList: 
-        if only_roman_chars(word): is_bad = True
+    def trans_partly(name):
+        wordList = re.sub("[^\w]", " ",  name).split()
+        hlist = []
 
-    if is_bad: return False
-    else: return trans_name
+        hlist.append(wordList[-1])
+        del wordList[-1]
 
-word = 'Minecraft launcher'.lower()
+        return wordList, hlist
 
-name_text = ' '.join(slice_word(word))
-result = trans_all(name_text)
-if not result: print(trans_partly(word))
-else: print(result)
+    def trans_all(name):
+        sl = False
+        while True:
+            translator = Translator() 
+            trans_name = translator.translate(name, dest='bg') 
+            print(trans_name)
 
-"""
-trans_name = []
-for word in name_list:
-    translator = Translator()
-    trans_word = translator.translate(word, dest='bg') 
-    print(trans_word)
-    trans_name.append(trans_word.text)
+            if contain_latin_stuff(trans_name):      
+                sl = True      
+                l1, l2 = trans_partly(name)
+                name = ' '.join(l1)
+            else:
+                break
 
-print(trans_name)
-"""
+        wname = trans_name.text
+            
+        if sl:
+            name = ' '.join(l2)
+            translator = Translator() 
+            trans_name = translator.translate(name, dest='bg') 
+            print(trans_name)
+
+            wname += ' ' + trans_name.text
+        
+        return wname
+
+    word = word.lower()
+
+    name_text = ' '.join(slice_word(word))
+    result = trans_all(name_text).replace(',', '')
+    trans_result = translit(result, "bg", reversed=True)
+    print(trans_result)
+    return trans_result
+
+title_translator("League of Legends")
