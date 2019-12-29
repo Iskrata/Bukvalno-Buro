@@ -1,5 +1,7 @@
 import unicodedata as ud
+import json
 import re
+import os
 from googletrans import Translator
 import wordninja
 from transliterate import translit
@@ -21,8 +23,11 @@ def title_translator(word):
     def slice_word(word):
         wm = wordninja.LanguageModel('words.txt.gz')
         name_list = wm.split(word)
-        print(name_list)
-        return name_list
+
+        y = [s for s in name_list if not len(s) == 1]                
+        print(word,'-->',y)
+
+        return y
 
     def contain_latin_stuff(trans_name):
         is_bad = False
@@ -48,7 +53,6 @@ def title_translator(word):
         while True:
             translator = Translator() 
             trans_name = translator.translate(name, dest='bg') 
-            print(trans_name)
 
             if contain_latin_stuff(trans_name):      
                 sl = True      
@@ -63,7 +67,6 @@ def title_translator(word):
             name = ' '.join(l2)
             translator = Translator() 
             trans_name = translator.translate(name, dest='bg') 
-            print(trans_name)
 
             wname += ' ' + trans_name.text
         
@@ -74,7 +77,77 @@ def title_translator(word):
     name_text = ' '.join(slice_word(word))
     result = trans_all(name_text).replace(',', '')
     trans_result = translit(result, "bg", reversed=True)
-    print(trans_result)
     return trans_result
 
-title_translator("League of Legends")
+#listp = ["chrome", "apple", "steam", "Mario", "CS:GO", "Skype", "League of Legends", "Minecraft"]
+#for word in listp:
+#    title_translator(word)
+
+print("-=-=-=-=-=-=-=-=-=-=-=-=-=-")
+print("-=-=-BUKVALNO=-=-BURO=-=-=+")
+print("-=-=-=-=-=-=-=-=-=-=-=-=-=-\n")
+
+while True:
+    num = str(input("type: \n1 - to translate \n2 - to undo the translate \n3 - to exit \n"))
+    if num == '3': exit()
+    if num == '1' or num == '2':
+        break
+
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+with open('data.txt') as json_file:
+    data = json.load(json_file)
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+files_dir = os.path.join(os.environ["HOMEPATH"], "Desktop")
+files = os.listdir(files_dir)
+
+for _file in files:
+    file_dir = os.path.join(files_dir, _file)
+    filename, file_extension = os.path.splitext(file_dir)
+
+    base=os.path.basename(file_dir)
+    name = os.path.splitext(base)[0]
+
+    if file_extension == '.lnk':
+        if num == '2':
+            if name in data.keys():
+                os.rename(file_dir, os.path.join(files_dir, data[name]+".lnk"))
+                print(name,'-->',data[name])
+                del data[name]
+        elif name not in data.keys():
+            translated = title_translator(name)
+            os.rename(file_dir, os.path.join(files_dir, translated+".lnk"))
+            data[translated] = name
+
+            print(name,'-->',translated)
+
+
+files_dir = os.path.join(os.environ["PUBLIC"], "Desktop")
+files = os.listdir(files_dir)
+
+for _file in files:
+    file_dir = os.path.join(files_dir, _file)
+    filename, file_extension = os.path.splitext(file_dir)
+
+    base=os.path.basename(file_dir)
+    name = os.path.splitext(base)[0]
+
+    if file_extension == '.lnk':
+        if num == '2':
+            if name in data.keys():
+                os.rename(file_dir, os.path.join(files_dir, data[name]+".lnk"))
+                print(name,'-->',data[name])
+                del data[name]
+        elif name not in data.keys():
+            translated = title_translator(name)
+            os.rename(file_dir, os.path.join(files_dir, translated+".lnk"))
+            data[translated] = name
+
+            print(name,'-->',translated)
+
+
+with open('data.txt', 'w') as outfile:
+    json.dump(data, outfile)

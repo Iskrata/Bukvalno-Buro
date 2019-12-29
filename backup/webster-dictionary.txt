@@ -936,7 +936,7 @@ Allasch
 Alle
 Alleghenian
 Allegheny
-Allegro l
+Allegro
 Allentiac
 Allentiacan
 Allhallow
@@ -2456,7 +2456,7 @@ Arthrozoa
 Arthur
 Arthurian
 Arthuriana
-Article x
+Article
 Articulata
 Artie
 Artinskian
@@ -2930,15 +2930,6 @@ Azteca
 Aztecan
 Azygobranchia
 Azygobranchiata
-B
-B major
-B mi
-B minor
-B natural
-B powder
-B power supply
-B quadrum
-B rotundum
 B-flat
 B-flat major
 B-flat minor
@@ -4692,20 +4683,7 @@ Byzantine
 Byzantinesque
 Byzantinism
 Byzantinize
-C
-C battery
-C clef
-C major
-C minor
-C natural
-C power supply
-C spring
-C three
-C washer
-C-shaped
-C-sharp
-C-sharp minor
-C-star
+battery
 Cabinda
 Cabirean
 Cabiri
@@ -7460,14 +7438,6 @@ Czechish
 Czechization
 Czechoslovak
 Czechoslovakian
-D
-D major
-D minor
-D natural
-D net
-D splice
-D trap
-D uxelles sauce
 D-borneol
 D-flat
 D-flat major
@@ -7922,8 +7892,6 @@ Diaguite
 Dialister
 Dialonian
 Dialypetalae
-Diamine scarlet b
-Diamine violet n
 Dian
 Diana
 Diancecht
@@ -8305,7 +8273,7 @@ Doto
 Dotonidae
 Dottore
 Dotty
-Double-u
+Double
 Dovyalis
 Dowieism
 Dowieite
@@ -8464,9 +8432,6 @@ Dyssodia
 Dytiscidae
 Dytiscus
 Dzungar
-E
-E-chinocystis
-E-shaped
 Earthshaker
 East greenlander
 East indiaman
@@ -9459,21 +9424,6 @@ Extravagantes
 Eyeish
 Ezekiel
 Ezra
-F
-F clef
-F horn
-F layer
-F major
-F minor
-F natural
-F star
-F-flat
-F-head cylinder
-F-shaped
-F-sharp
-F-sharp major
-F-sharp minor
-F-type star
 Faba
 Fabaceae
 Fabian
@@ -9829,7 +9779,7 @@ Fothergilla
 Foundation day
 Fouquieria
 Fouquieriaceae
-Four-h
+Four
 Four-power
 Fourier analysis
 Fourierian
@@ -10047,17 +9997,6 @@ Fusiformis
 Fusulina
 Fusus
 Fuzzy-wuzzy
-G
-G clef
-G star
-G string
-G-flat
-G-flat major
-G-shaped
-G-sharp
-G-sharp minor
-G-type
-G-type star
 Ga
 Gabe
 Gaboon
@@ -11199,7 +11138,6 @@ Gyrophoraceae
 Gyrophoraceous
 Gyrostachys
 Gyrotheca
-H
 Habab
 Habbe
 Habe
@@ -12394,12 +12332,6 @@ Hystricinae
 Hystricomorpha
 Hystrix
 I
-I girder
-I-bunga
-I-ism
-I-ness
-I-railed
-I-ship
 Iacchic
 Iacchos
 Iacchus
@@ -12761,7 +12693,7 @@ Invertebrata
 Io
 Io moth
 Iodamoeba
-Iodeosin b
+Iodeosin
 Ione
 Ione formation
 Ioni
@@ -13012,7 +12944,6 @@ Ixora
 Izar
 Izcateco
 Izdubar
-J
 Jaalin
 Jabarite
 Jabberwock
@@ -13029,7 +12960,6 @@ Jacaranda
 Jack mormon
 Jack nasty
 Jack rose
-Jack-a-lent
 Jack-fool
 Jackfield ware
 Jackson
@@ -13505,17 +13435,6 @@ Juyas
 Juza
 Jynginae
 Jynx
-K
-K line
-K o
-K radiation
-K rays
-K series
-K star
-K truss
-K-shaped
-K-term
-K-type star
 Kababish
 Kabaka
 Kabard
@@ -13892,7 +13811,6 @@ Koelreuteria
 Koeri
 Koettstorfer number
 Kogia
-Koh-i-noor
 Kohathite
 Koheleth
 Kohen
@@ -14076,16 +13994,6 @@ Kyphosidae
 Kyrie
 Kyurin
 Kyurinish
-L
-L acid
-L bar
-L block
-L electron
-L-head cylinder
-La fleche
-La france noire
-La grande chartreuse
-La plata group
 Laban
 Labiatae
 Labidura
@@ -14248,7 +14156,7 @@ Lampyridae
 Lampyris
 Lamus
 Lamut
-Lanacyl violet b
+Lanacyl violet
 Lanao
 Lanarkia
 Lancaster
@@ -15270,16 +15178,6 @@ Lysimachus
 Lysistrata
 Lythraceae
 Lythrum
-M
-M electron
-M radiation
-M roof
-M series
-M star
-M tooth
-M-shaped
-M-swahili
-M-type star
 Ma
 Mab
 Maba
@@ -16470,7 +16368,7 @@ Mid-tertiary
 Mid-upper
 Mid-victorian
 Mid-victorianism
-Middle c
+Middle
 Middle high german
 Middle indian
 Middle iranian
@@ -17310,14 +17208,6 @@ Myzostoma
 Myzostomata
 Myzostomida
 Myzostomidae
-N
-N electron
-N radiation
-N series
-N star
-N station
-N-shaped
-N-type star
 Naaman
 Naassenes
 Nabal
@@ -17395,7 +17285,7 @@ Naos
 Naosaurus
 Napaea
 Napaean
-Naphthylamine black d
+Naphthylamine black
 Napierian
 Napoleon
 Napoleon blue
@@ -18207,13 +18097,6 @@ Nyoro
 Nyroca
 Nyssa
 Nyssaceae
-O
-O g washer
-O star
-O station
-O-gee
-O-shaped
-O-type star
 Oak crown
 Oakboy
 Oakesia
@@ -18888,12 +18771,6 @@ Ozark series
 Ozark state
 Ozias
 Ozonium
-P
-P station
-P trap
-P-language
-P-shaped
-P-tongue
 Paba
 Pacaguara
 Paccanarist
@@ -21989,15 +21866,6 @@ Pythonissa
 Pythonomorpha
 Pyxidanthera
 Pyxis
-Q
-Q wedge
-Q-celt
-Q-celtic
-Q-group
-Q-language
-Q-shaped
-Q-ship
-Q-wedge compensation
 Qoheleth
 Quader
 Quadi
@@ -22088,9 +21956,6 @@ Quixote
 Qung
 Quoratean
 Qurti
-R
-R star
-R-shaped
 Rab
 Rabbinic
 Rabbinica
@@ -22796,17 +22661,6 @@ Rymandra
 Rynchospora
 Rytina
 Ryukyu
-S
-S bend
-S brake
-S curve
-S hook
-S o s
-S ray
-S trap
-S wrench
-S-iron
-S-shaped
 Saan
 Saarbrucken
 Saba
@@ -24533,7 +24387,7 @@ Sokulk
 Sol
 Solanaceae
 Solanales
-Solanine-s
+Solanine
 Solanum
 Solarium
 Soldan
@@ -25437,41 +25291,6 @@ Syrphidae
 Syrtis
 Syryenian
 Szekler
-T
-T bandage
-T bar
-T bevel
-T bob
-T bolt
-T cart
-T cloth
-T connection
-T connector
-T crank
-T cross
-T head
-T hinge
-T iron
-T joint
-T nut
-T piece
-T plate
-T rail
-T ring
-T scale
-T score
-T slot
-T square
-T steak
-T winding
-T-beam bridge
-T-bone steak
-T-connected
-T-head cylinder
-T-head toggle
-T-headed
-T-man
-T-slot cutter
 Ta ching
 Taal
 Taalbond
@@ -25487,7 +25306,7 @@ Tabellariaceae
 Tabernaemontana
 Tabira
 Tabitha
-Table a
+Table
 Table mountain series
 Tabloid
 Taborite
@@ -26439,7 +26258,7 @@ Tobiah
 Tobias
 Tobikhar
 Toby
-Toc h
+Toc 
 Tocharese
 Tocharian
 Tocharic
@@ -27184,19 +27003,6 @@ Tzental
 Tzotzil
 Tzu-chou
 Tzutuhil
-U
-U magnet
-U pin
-U plate
-U rail
-U section
-U trap
-U tube
-U valley
-U-boat
-U-cut
-U-shaped
-U-stirrup
 Uaraycu
 Uarekena
 Uaupe
@@ -27514,8 +27320,8 @@ Unjewish
 Unona
 Unrra
 Unrussian
-Unuk al h
-Unuk al hay
+Unuk 
+Unuk
 Unungun
 Up-state
 Up-stater
@@ -27628,31 +27434,6 @@ Ux base
 Uzbak
 Uzbeg
 Uzbek
-V
-V bend
-V block
-V bob
-V connection
-V crowder
-V croze
-V curve
-V point
-V scraper
-V section
-V thread
-V tool
-V vat
-V weld
-V winding
-V-blouse
-V-bottom
-V-engine
-V-formed
-V-grooved
-V-necked
-V-shaped
-V-shaped comb
-V-type engine
 Vaalpens
 Vaccaria
 Vacciniaceae
@@ -28039,11 +27820,6 @@ Vulpinae
 Vultur
 Vulturidae
 Vulturinae
-W
-W surface
-W-engine
-W-shaped
-Wa
 Wa-palaung
 Waac
 Waasi
@@ -28442,20 +28218,6 @@ Wyethia
 Wykehamical
 Wykehamist
 Wyomingite
-X
-X chromosome
-X radiation
-X ray
-X-ray cancer
-X-ray photograph
-X-ray photography
-X-ray spectrograph
-X-ray spectrometer
-X-ray spectrum
-X-ray therapy
-X-ray tube
-X-ray-proof
-X-shaped
 Xanthian
 Xanthidium
 Xanthisma
@@ -28549,27 +28311,6 @@ Xyrichthys
 Xyridaceae
 Xyridales
 Xyris
-Y
-Y box
-Y branch
-Y bridge
-Y chromosome
-Y connection
-Y cross
-Y current
-Y curve
-Y joint
-Y level
-Y ligament
-Y moth
-Y point
-Y theodolite
-Y track
-Y tube
-Y winding
-Y-gun
-Y-potential
-Y-shaped
 Yadava
 Yagnob
 Yagua
@@ -28721,11 +28462,6 @@ Yuruna
 Yurupary
 Yustaga
 Yvonne
-Z
-Z bar
-Z chromosome
-Z rail
-Z-shaped
 Zabaean
 Zabaism
 Zaberma
@@ -28963,16 +28699,6 @@ Zyryan
 Zythia
 Zyzomys
 Zyzzogeton
-a
-a la
-a la king
-a la mire
-a prendre
-a thousandfold
-a-be
-a-borning
-a-sea
-a-tiptoe
 aa
 aal
 aalii
@@ -34217,9 +33943,9 @@ aliyah
 alizarate
 alizari
 alizarin
-alizarin black s
-alizarin blue black s
-alizarin blue s
+alizarin black 
+alizarin blue black 
+alizarin blue 
 alizarin brown
 alizarin cyanine
 alizarin cyanine green
@@ -34253,7 +33979,7 @@ alkali mustard
 alkali reserve
 alkali waste
 alkali weed
-alkali yellow r
+alkali yellow 
 alkalic
 alkaliferous
 alkalifiable
@@ -34347,7 +34073,7 @@ all to
 all told
 all two
 all up
-all-a-mort
+all-mort
 all-abhorred
 all-able
 all-absorbing
@@ -46140,7 +45866,6 @@ azygous
 azyme
 azymite
 azymous
-b
 ba
 baa
 baahling
@@ -53976,8 +53701,6 @@ black rot
 black sand
 black scoter
 black spot
-black-a-visaged
-black-a-vised
 black-and-tan
 black-and-white
 black-aproned
@@ -58544,8 +58267,6 @@ bribery oath
 bribetaker
 bribetaking
 bribeworthy
-bric-a-brac
-bric-a-brackery
 brichen
 brichette
 brick
@@ -61498,9 +61219,6 @@ byway
 bywoner
 byword
 bywork
-c
-ca
-ca canny
 caaing whale
 caam
 caama
@@ -63342,7 +63060,6 @@ cap rock
 cap screw
 cap scuttle
 cap square
-cap-a-pie
 cap-flash
 capability
 capable
@@ -84866,9 +84583,6 @@ czaritza
 czarowitch
 czarowitz
 czarship
-d
-da
-daalder
 dab
 dabb
 dabba
@@ -97918,8 +97632,6 @@ dytiscid
 dzera-a-rabry pik
 dzera-a-torky pik
 dzeren
-e
-ea
 each
 each other
 eachwhere
@@ -105973,7 +105685,7 @@ explosion wave
 explosion-proof
 explosionist
 explosive
-explosive d
+explosive
 explosively
 explosiveness
 expone
@@ -106787,10 +106499,7 @@ eyre
 eyrie
 eyrir
 ezba
-f
 f-hole
-fa
-fa la
 fabaceous
 fabella
 fabes
@@ -117331,9 +117040,6 @@ fuzzy-legged
 fyke
 fylfot
 fyrd
-g
-g sol re ut
-ga
 gab
 gab pin
 gabardine
@@ -125605,9 +125311,6 @@ gyrus
 gyte
 gytling
 gyve
-h
-ha
-ha-ha
 haab
 haaf
 habanera
@@ -145540,7 +145243,6 @@ izle
 izote
 iztle
 izzard
-j
 jaal goat
 jab
 jabbed
@@ -147116,7 +146818,6 @@ juxtaterrestrial
 juxtatropical
 jyngine
 jynx
-k
 ka
 kaawi yam
 kabaragoya
@@ -149314,7 +149015,6 @@ kyphotic
 kyrine
 kyschtymite
 kyte
-l
 la
 la-di-da
 laager
@@ -154016,7 +153716,7 @@ linked
 linkedness
 linker
 linking
-linking r
+linking
 linkman
 links
 linksmith
@@ -154921,7 +154621,7 @@ lock step
 lock stitch
 lock turtle
 lock washer
-lock-a-daisy
+lock-daisy
 lock-grained
 lock-hair fern
 lockable
@@ -156824,7 +156524,6 @@ lythraceous
 lytic
 lytta
 lyxose
-m
 m-hum
 m-ple point
 ma
@@ -163545,7 +163244,7 @@ mikie
 mil
 mil-foot
 mila
-mila a landi
+mila-landi
 milady
 milammeter
 milarite
@@ -169524,7 +169223,6 @@ myzostome
 myzostomid
 myzostomidan
 myzostomous
-n
 n-dimensional
 n-ple
 n-ply
@@ -176631,7 +176329,6 @@ nymphwise
 nystagmic
 nystagmus
 nyxis
-o
 o-o
 o-o-a-a
 oadal
@@ -185026,7 +184723,6 @@ ozophen
 ozophene
 ozostomia
 ozotype
-p
 pa
 paal
 paar
@@ -190044,7 +189740,7 @@ peg float
 peg leg
 peg tooth
 peg top
-peg-a-lantern
+peg-lantern
 peg-tooth harrow
 pega
 pegall
@@ -211726,7 +211422,6 @@ pyxides
 pyxidium
 pyxie
 pyxis
-q
 qasida
 qere
 qeri
@@ -214099,7 +213794,6 @@ quotingly
 quotity
 quotlibet
 quotum
-r
 r-less
 ra
 raad
@@ -226172,7 +225866,6 @@ ryotwari
 rype
 rypeck
 rytidosis
-s
 sa
 sa sa
 saa
@@ -261825,9 +261518,8 @@ syzygy
 szaibelyite
 szlachta
 szopelka
-t
-t aint
-t will
+aint
+will
 ta
 ta-ta
 ta-zaung
@@ -266145,7 +265837,7 @@ tetbrothalein sodium
 tetch
 tetchy
 tete
-tete a tete
+tettete
 tetel
 teterrimous
 teth
@@ -267719,7 +267411,7 @@ thiohydrate
 thiohydrolysis
 thiohydrolyze
 thioindigo
-thioindigo red b
+thioindigo red
 thioketone
 thiol
 thiolacetic
@@ -279774,8 +279466,7 @@ tyt
 tzaritza
 tzolkin
 tzontle
-u
-u-o umlaut
+u-oumlaut
 uang
 uayeb
 uberant
@@ -296320,7 +296011,6 @@ uzara
 uzara root
 uzarin
 uzaron
-v
 vaagmer
 vaalite
 vacabond
@@ -300476,8 +300166,6 @@ vulvovaginitis
 vum
 vying
 vyingly
-w
-wa
 waag
 waapa
 waar
@@ -309043,7 +308731,6 @@ wyson
 wyss
 wyve
 wyver
-x
 xanthaline
 xanthamic
 xanthamide
@@ -309339,8 +309026,7 @@ xysti
 xystos
 xystum
 xystus
-y
-y tile
+y-tile
 y-bake
 y-blend
 y-blent
@@ -310249,10 +309935,6 @@ yusdrum
 yutu
 yuzlik
 yuzluk
-z
-z iron
-z term
-za
 zabaglione
 zabeta
 zabra
