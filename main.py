@@ -101,11 +101,11 @@ with open('data.txt') as json_file:
 
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-files_dir = os.path.join(os.environ["HOMEPATH"], "Desktop")
+files_dir = os.path.join(os.path.join(os.path.expanduser('~')), "Desktop")
 files = os.listdir(files_dir)
 
 for _file in files:
-    file_dir = os.path.join(files_dir, _file)
+    file_dir = os.path.join(files_dir, _file) 
     filename, file_extension = os.path.splitext(file_dir)
 
     base=os.path.basename(file_dir)

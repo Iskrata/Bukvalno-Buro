@@ -1,1 +1,1 @@
-{}
+{"otidete vlyuben pogled hrom": "Google Chrome", "na": "osu!", "zabelezhi ako": "Spotify", "vizualno studio kod": "Visual Studio Code", "studio 20": "FL Studio 20", "zanayat mina starter": "Minecraft Launcher", "para": "Steam"}
